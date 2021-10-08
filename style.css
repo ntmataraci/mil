@@ -1,0 +1,35 @@
+body{
+    width:300px;
+}
+
+.form{
+    text-align: left;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    position: relative;
+}
+
+.formValue{
+    position:absolute;
+    right:0;
+}
+
+.formValue input{
+    background-color: yellow;
+    color:red;
+}
+
+.finalValue{
+    position: absolute;
+    right:0;
+}
+
+.message{
+    color:Red;
+    font-weight: bold;
+    font-size: 2rem;
+}
