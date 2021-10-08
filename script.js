@@ -81,5 +81,8 @@ if (threadDiameter!=12.9 && threadDiameter!=12.8 &&  threadDiameter!=14.9  &&  t
     document.querySelector(".message").innerHTML+=" Diş Kalıbı Yok !!!"
 }
 
+if (screwDiameter!=13 && screwDiameter!=15){
+    document.querySelector(".message").innerHTML+=" AA Kalıbı Yok !!!"
+} 
 
 })
